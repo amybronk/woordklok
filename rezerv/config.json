@@ -1,0 +1,23 @@
+{
+    "ssid": "PLAATS HIER JE WIFI NAAM", 	//ssid      WiFi Naam.
+    "password": "PLAATS HIER JE WIFI WW", 	// WW     WiFi Wacht Woord.
+    "R": 255, 					// Rood.
+    "G": 255, 					// Groen.
+    "B": 255, 					// Blouw.
+    "H": 50, 					// Helderhijd.
+    "LDR_A": false, 				// LDR togle.
+    "WiFi_A": false, 				// WiFi togle.
+    "ntpServer": "pool.ntp.org", 		// tijd server wifi.
+    "timeout": 25000, 				// WiFi timeout.
+    "vorm": 0, 					// 0 = vierkant.json, 1 = ovaal.json, 2 = strip.json, 3 = custom1.json, 4 = custom2.json, 5 = custom3.json.
+    "test_mode": 0				// 0 is standaart 1 is aleen alls je weet wat je doet
+  }
+
+
+
+
+
+
+
+
+  

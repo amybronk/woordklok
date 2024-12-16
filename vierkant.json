@@ -1,0 +1,32 @@
+{
+    "words": [
+      { "name": "HET", "pin": 0, "offset": 1, "length": 3 },
+      { "name": "IS", "pin": 4, "offset": 1, "length": 2 },
+      { "name": "VIJF_", "pin": 7, "offset": 1, "length": 4 },
+      { "name": "TIEN_", "pin": 11, "offset": 1, "length": 4 },
+      { "name": "VOOR", "pin": 18, "offset": 1, "length": 4 },
+      { "name": "OVER", "pin": 22, "offset": 1, "length": 4 },
+      { "name": "KWART", "pin": 28, "offset": 1, "length": 5 },
+      { "name": "HALF", "pin": 33, "offset": 1, "length": 4 },
+      { "name": "OVER_", "pin": 40, "offset": 1, "length": 4 },
+      { "name": "VOOR_", "pin": 44, "offset": 1, "length": 4 },
+      { "name": "EEN", "pin": 51, "offset": 1, "length": 3 },
+      { "name": "TWEE", "pin": 55, "offset": 1, "length": 4 },
+      { "name": "DRIE", "pin": 62, "offset": 1, "length": 4 },
+      { "name": "VIER", "pin": 66, "offset": 1, "length": 4 },
+      { "name": "VIJF", "pin": 70, "offset": 1, "length": 4 },
+      { "name": "ZES", "pin": 74, "offset": 1, "length": 3 },
+      { "name": "ZEVEN", "pin": 77, "offset": 1, "length": 5 },
+      { "name": "ACHT", "pin": 88, "offset": 1, "length": 4 },
+      { "name": "NEGEN", "pin": 83, "offset": 1, "length": 5 },
+      { "name": "TIEN", "pin": 92, "offset": 1, "length": 4 },
+      { "name": "ELF", "pin": 96, "offset": 1, "length": 3 },
+      { "name": "TWALIF", "pin": 99, "offset": 1, "length": 6 },
+      { "name": "UUR", "pin": 106, "offset": 1, "length": 3 },
+      { "name": "AM_PM", "pin": 109, "offset": 1, "length": 1 },
+      { "name": "KLOK_1", "pin": 3, "offset": 12, "length": 4 },
+      { "name": "LOSER", "pin": 15, "offset": 11, "length": 5 },
+      { "name": "PRO", "pin": 6, "offset": 10, "length": 3 }
+    ]
+  }
+  
