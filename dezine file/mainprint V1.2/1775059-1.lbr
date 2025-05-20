@@ -1,0 +1,164 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TE_1775059-1">
+<wire x1="-21.7" y1="2.1" x2="8.9" y2="2.1" width="0.127" layer="51"/>
+<wire x1="8.9" y1="2.1" x2="8.9" y2="-27.15" width="0.127" layer="51"/>
+<wire x1="8.9" y1="-27.15" x2="-21.7" y2="-27.15" width="0.127" layer="51"/>
+<wire x1="-21.7" y1="-27.15" x2="-21.7" y2="2.1" width="0.127" layer="51"/>
+<wire x1="-21.7" y1="1.5" x2="-21.7" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-21.7" y1="2.1" x2="5.5" y2="2.1" width="0.127" layer="21"/>
+<wire x1="8.7" y1="2.1" x2="8.9" y2="2.1" width="0.127" layer="21"/>
+<wire x1="8.9" y1="2.1" x2="8.9" y2="-27.15" width="0.127" layer="21"/>
+<wire x1="8.9" y1="-27.15" x2="-21.7" y2="-27.15" width="0.127" layer="21"/>
+<wire x1="-21.7" y1="-27.15" x2="-21.7" y2="-22.2" width="0.127" layer="21"/>
+<wire x1="-21.7" y1="-0.5" x2="-21.7" y2="-1.5" width="0.127" layer="21"/>
+<circle x="-22.55" y="-18.9" radius="0.1" width="0.2" layer="21"/>
+<wire x1="9.15" y1="2.67" x2="9.15" y2="-27.4" width="0.05" layer="39"/>
+<wire x1="9.15" y1="-27.4" x2="-22.25" y2="-27.4" width="0.05" layer="39"/>
+<wire x1="-22.25" y1="-27.4" x2="-22.25" y2="2.67" width="0.05" layer="39"/>
+<wire x1="-22.25" y1="2.67" x2="9.15" y2="2.67" width="0.05" layer="39"/>
+<text x="-22.2859" y="3.25525" size="1.27205" layer="25">&gt;NAME</text>
+<text x="-22.2641" y="-29.0183" size="1.2708" layer="27">&gt;VALUE</text>
+<circle x="-21.26" y="-18.9" radius="0.1" width="0.2" layer="51"/>
+<pad name="P1" x="0" y="0" drill="1.2"/>
+<smd name="P_SW" x="-2.3" y="1.25" dx="1.8" dy="1.45" layer="1"/>
+<smd name="PEG1" x="7.1" y="1.52" dx="2.8" dy="1.8" layer="1"/>
+<pad name="P2" x="5" y="-26.2" drill="1"/>
+<smd name="PEG2" x="7.1" y="-25.92" dx="2.8" dy="1.8" layer="1"/>
+<smd name="9" x="-21.4" y="-21.425" dx="1.2" dy="1.2" layer="1"/>
+<smd name="1" x="-21.4" y="-18.925" dx="1.2" dy="1.2" layer="1"/>
+<smd name="2" x="-21.4" y="-16.425" dx="1.2" dy="1.2" layer="1"/>
+<smd name="3" x="-21.4" y="-13.925" dx="1.2" dy="1.2" layer="1"/>
+<smd name="4" x="-21.4" y="-11.425" dx="1.2" dy="1.2" layer="1"/>
+<smd name="5" x="-21.4" y="-8.925" dx="1.2" dy="1.2" layer="1"/>
+<smd name="6" x="-21.4" y="-6.425" dx="1.2" dy="1.2" layer="1"/>
+<smd name="7" x="-21.4" y="-4" dx="1.2" dy="1.2" layer="1"/>
+<smd name="8" x="-21.4" y="-2.3" dx="1.2" dy="1.2" layer="1"/>
+<smd name="D_SW" x="-21.3" y="0.07" dx="1.4" dy="0.73" layer="1"/>
+<smd name="SW" x="-21.3" y="1.03" dx="1.4" dy="0.73" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="1775059-1">
+<wire x1="15.24" y1="12.7" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-15.24" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-15.24" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<text x="-15.0046" y="14.2416" size="1.7802" layer="95">&gt;NAME</text>
+<text x="-15.2426" y="-17.7831" size="1.77831" layer="96">&gt;VALUE</text>
+<pin name="DAT0" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="DAT1" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="DAT2" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="CD/DAT3" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="VDD" x="20.32" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="VSS" x="20.32" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="CMD" x="-20.32" y="5.08" length="middle" direction="in"/>
+<pin name="CLK" x="-20.32" y="7.62" length="middle" direction="in" function="clk"/>
+<pin name="SWITCH" x="-20.32" y="0" length="middle" direction="pas"/>
+<pin name="DETECT_SW" x="-20.32" y="-2.54" length="middle" direction="pas"/>
+<pin name="PROTECT_SW" x="-20.32" y="-5.08" length="middle" direction="pas"/>
+<pin name="SHIELD" x="20.32" y="-7.62" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1775059-1" prefix="J">
+<description>CONN SD CARD PUSH-PUSH R/A SMD &lt;a href="https://pricing.snapeda.com/parts/1775059-1/TE%20Connectivity/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="1775059-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TE_1775059-1">
+<connects>
+<connect gate="G$1" pin="CD/DAT3" pad="1"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="2"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="9"/>
+<connect gate="G$1" pin="DETECT_SW" pad="D_SW"/>
+<connect gate="G$1" pin="PROTECT_SW" pad="P_SW"/>
+<connect gate="G$1" pin="SHIELD" pad="P1 P2 PEG1 PEG2"/>
+<connect gate="G$1" pin="SWITCH" pad="SW"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="3 6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Comment" value="1775059-1"/>
+<attribute name="MF" value="TE Connectivity"/>
+<attribute name="Description" value="
+                        
+                            Right Angle Surface Mount SD Card Connector, with Solder Termination | TE Connectivity 1775059-1
+                        
+                    "/>
+<attribute name="Package" value="None"/>
+<attribute name="Price" value="None"/>
+<attribute name="SnapEDA_Link" value="https://www.snapeda.com/parts/1775059-1/TE+Connectivity+AMP+Connectors/view-part/?ref=snap"/>
+<attribute name="MP" value="1775059-1"/>
+<attribute name="Availability" value="In Stock"/>
+<attribute name="Check_prices" value="https://www.snapeda.com/parts/1775059-1/TE+Connectivity+AMP+Connectors/view-part/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
